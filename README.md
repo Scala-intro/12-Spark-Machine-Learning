@@ -80,3 +80,4 @@ val predicciones = modelo.predict(productoUsuarios).map {
     case Rating(user, product, rate) => ((user,product),rate)
 }
 ~~~
+![scala](001.png)
